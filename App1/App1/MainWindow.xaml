@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:App1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+        Title="Inicio" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
 
         <Label Name="Label2"
@@ -19,7 +19,7 @@
     Canvas.Left="10" Canvas.Top="10"  
     FontSize="14" FontFamily="Georgia"  
  FontWeight="Bold" Margin="80,190,616,201" RenderTransformOrigin="0.515,1.196"/>
-        <Button x:Name="DrawCircleButton" Margin="0,279,616,97" Width="133" HorizontalAlignment="Right" Click="Button_Click" RenderTransformOrigin="0.514,-0.06">Conexion</Button>
+        <Button x:Name="DrawCircleButton" Margin="0,279,616,97" Width="133" HorizontalAlignment="Right" Click="Button_Click" RenderTransformOrigin="0.514,-0.06">Search</Button>
 
         <Label Name="Label1"  
     Width="200"  
@@ -34,5 +34,7 @@
     FontSize="14" FontFamily="Georgia"  
  FontWeight="Bold" Margin="358,32,338,343"/>
         <Button x:Name="exit" Margin="0,279,81,97" Width="132" HorizontalAlignment="Right" Click="Exit_Click" RenderTransformOrigin="0.514,-0.06" Content="Exit&#xD;&#xA;"/>
+        <Button x:Name="about" Margin="0,279,338,97" Width="133" HorizontalAlignment="Right" Click="About_Click" RenderTransformOrigin="0.514,-0.06" Content="About"/>
+        <Button x:Name="delete" Margin="0,346,616,29" Width="133" HorizontalAlignment="Right" Click="Delete_Click" RenderTransformOrigin="0.514,-0.06" Content="Delete"/>
     </Grid>
 </Window>

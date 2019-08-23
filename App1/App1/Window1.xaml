@@ -1,0 +1,17 @@
+﻿<Window x:Class="App1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App1"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="Label3"
+            Content="Ventana2&#xD;&#xA;"  
+            FontSize="14" FontFamily="Georgia"  
+            FontWeight="Bold" Margin="358,32,336,341"/>
+        <Button x:Name="about" Margin="0,333,39,41" Width="133" HorizontalAlignment="Right" Click="About_Click" RenderTransformOrigin="0.514,-0.06" Content="Regresar&#xD;&#xA;"/>
+
+    </Grid>
+</Window>
