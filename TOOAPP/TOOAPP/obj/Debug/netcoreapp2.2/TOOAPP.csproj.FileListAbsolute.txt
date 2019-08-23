@@ -1,0 +1,11 @@
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\bin\Debug\netcoreapp2.2\TOOAPP.deps.json
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\bin\Debug\netcoreapp2.2\TOOAPP.runtimeconfig.json
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\bin\Debug\netcoreapp2.2\TOOAPP.runtimeconfig.dev.json
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\bin\Debug\netcoreapp2.2\TOOAPP.dll
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\bin\Debug\netcoreapp2.2\TOOAPP.pdb
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.csprojAssemblyReference.cache
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.csproj.CoreCompileInputs.cache
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.AssemblyInfoInputs.cache
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.AssemblyInfo.cs
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.dll
+C:\Users\Jow\source\repos\TOOAPP\TOOAPP\obj\Debug\netcoreapp2.2\TOOAPP.pdb
