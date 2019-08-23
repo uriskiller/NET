@@ -28,22 +28,20 @@ namespace App1
             InitializeComponent();
         }
 
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void execute(String sql)
         {
             string connStr = "server=localhost;user=root;database=basdb;port=3306;password=12354";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
                 conn.Open();
-               
-                string sql = "SELECT * FROM cargonet_pagos WHERE ID="+txt.Text;
+
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
 
                 if (rdr.HasRows)
                 {
-                    
+
                     while (rdr.Read())
                     {
                         Label1.Content = " ID:" + rdr[0] + "\n Folio: " + rdr[3] + "\n Total: " + rdr[11];
@@ -52,6 +50,7 @@ namespace App1
                 else
                 {
                     System.Windows.MessageBox.Show("There aren't data");
+                    Label1.Content = "";
                 }
                 txt.Text = "";
 
@@ -73,6 +72,23 @@ namespace App1
             conn.Close();
         }
 
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (string.IsNullOrEmpty(txt.Text) || string.IsNullOrWhiteSpace(txt.Text))
+            {
+                System.Windows.MessageBox.Show("The 'ID' can't be empty");
+
+            }
+            else
+            {
+                String sql = "SELECT * FROM cargonet_pagos WHERE ID=" + txt.Text;
+                execute(sql);
+            }
+
+        }
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -89,6 +105,21 @@ namespace App1
             l.Show();
             this.Close();
 
+        }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (string.IsNullOrEmpty(txt.Text) || string.IsNullOrWhiteSpace(txt.Text))
+            {
+                System.Windows.MessageBox.Show("The 'ID' can't be empty");
+
+            }
+            else
+            {
+                String sql = "DELETE FROM cargonet_pagos WHERE ID=" + txt.Text;
+                execute(sql);
+            }
         }
     }
 }
