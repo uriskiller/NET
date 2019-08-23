@@ -34,5 +34,6 @@
     FontSize="14" FontFamily="Georgia"  
  FontWeight="Bold" Margin="358,32,338,343"/>
         <Button x:Name="exit" Margin="0,279,81,97" Width="132" HorizontalAlignment="Right" Click="Exit_Click" RenderTransformOrigin="0.514,-0.06" Content="Exit&#xD;&#xA;"/>
+        <Button x:Name="about" Margin="0,279,338,97" Width="133" HorizontalAlignment="Right" Click="About_Click" RenderTransformOrigin="0.514,-0.06" Content="About"/>
     </Grid>
 </Window>

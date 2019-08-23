@@ -82,5 +82,13 @@ namespace App1
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 l = new Window1();
+            l.Show();
+            this.Close();
+
+        }
     }
 }

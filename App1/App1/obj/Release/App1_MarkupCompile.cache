@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Jow\source\NET\App1\App1\obj\Debug\
+C:\Users\Jow\source\NET\App1\App1\obj\Release\
 App1
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Jow\source\NET\App1\App1\App.xaml
 2462529049
 
@@ -16,5 +16,5 @@ C:\Users\Jow\source\NET\App1\App1\App.xaml
 25716100930
 MainWindow.xaml;Window1.xaml;
 
-False
+True
 
